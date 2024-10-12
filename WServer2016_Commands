@@ -1,3 +1,4 @@
 WServer2016 Commands
-Correr Shell como administrador
+Correr Shell como administrador(o desde el CMD escribir PowerShell):
+  (Comando)Install-WindowsFeature -Name DHCP -IncludeManagementTools
   
