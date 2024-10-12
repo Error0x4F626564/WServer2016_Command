@@ -1,4 +1,7 @@
 WServer2016 Commands
 Correr Shell como administrador(o desde el CMD escribir PowerShell):
-  (Comando)Install-WindowsFeature -Name DHCP -IncludeManagementTools
+Ejecuta el siguiente comando para instalar el rol de DHCP:
+  Install-WindowsFeature -Name DHCP -IncludeManagementTools
+Para que el servidor DHCP pueda funcionar en un entorno de Active Directory, debe ser autorizado.
+Usa el siguiente comando para autorizar el servidor DHCP:
   
