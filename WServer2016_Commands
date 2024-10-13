@@ -1,5 +1,11 @@
 WServer2016 Commands
 Correr Shell como administrador(o desde el CMD escribir PowerShell):
+__________________________________________________________________-
+Configurar ip estática
+New-NetIPAddress -InterfaceIndex X -IPAddress "10.8.11.86" -PrefixLength 24 -DefaultGateway "10.8.11.1"
+
+__________________________________________________________________
+
 Ejecuta el siguiente comando para instalar el rol de DHCP:
   Install-WindowsFeature -Name DHCP -IncludeManagementTools
 Para que el servidor DHCP pueda funcionar en un entorno de Active Directory, debe ser autorizado.
