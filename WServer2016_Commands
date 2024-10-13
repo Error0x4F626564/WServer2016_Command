@@ -3,6 +3,8 @@ Correr Shell como administrador(o desde el CMD escribir PowerShell):
 __________________________________________________________________-
 Configurar ip estática
 New-NetIPAddress -InterfaceIndex X -IPAddress "10.8.11.86" -PrefixLength 24 -DefaultGateway "10.8.11.1"
+Comando para verificar la informacion: 
+  Get-NetIPConfiguration
 
 __________________________________________________________________
 
