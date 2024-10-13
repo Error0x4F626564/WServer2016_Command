@@ -2,13 +2,14 @@ WServer2016 Commands
 Correr Shell como administrador(o desde el CMD escribir PowerShell):
 __________________________________________________________________-
 Configurar ip estática
-New-NetIPAddress -InterfaceIndex X -IPAddress "10.8.11.86" -PrefixLength 24 -DefaultGateway "10.8.11.1"
+  New-NetIPAddress -InterfaceIndex X -IPAddress "10.8.11.86" -PrefixLength 24 -DefaultGateway "10.8.11.1"
 Comando para verificar la informacion: 
   Get-NetIPConfiguration
 
 __________________________________________________________________
 Instalaciones (previas? i guess):
   Install-WindowsFeature -Name RSAT-AD-PowerShell
+  import-module activedirectory
 
 Ejecuta el siguiente comando para instalar el rol de DHCP:
   Install-WindowsFeature -Name DHCP -IncludeManagementTools
